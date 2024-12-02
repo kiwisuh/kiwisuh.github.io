@@ -1,24 +1,26 @@
-body, html {
-    height: 100%;
-    margin: 0;
+body {
     font-family: 'Montserrat', sans-serif;
-
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #333;
+    color: #fff;
 }
-
-.bg {
-    background: #191919;
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: table;
-    width:100%;
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
-
-.logo{
-
-  height: 300px;
+main {
+    background: #333;
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+}
+.logo {
+  max-width: 10%; /* Ensure it doesn’t exceed the parent container */
+  height: auto;    /* Maintain aspect ratio */
 }
 .scaling-svg{
   position: absolute;
@@ -49,24 +51,26 @@ body, html {
   margin: 0 auto;
   max-width: 90%; /* Allow content to shrink within the viewport */
 }
-.top-nav{
-  position: absolute;
-  right:10%;
-  top:10%;
-  float: left;
-  padding-left: 30px;
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 .about_me{
   background-color:yellow;
 }
-.link_float{
-  float: left;
-  padding-left: 30px;
-}
-.links{
-  padding:30px;
-  padding-top: 100px;
-}
+
 .Project{
   background: linear-gradient(#fdbb2d, #22c1c3);
   color: white;
