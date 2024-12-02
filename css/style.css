@@ -60,28 +60,12 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-}
-.about_me{
-  background-color:yellow;
-}
-
-.Project{
-  background: linear-gradient(#fdbb2d, #22c1c3);
-  color: white;
-  text-align: center;
-  height: 60%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: table;
-  width:100%;
 }
 
 a{
